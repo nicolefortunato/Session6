@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table_with_Style</title>
+    <body>
+    <h1>Due Diligence Report</h1>
+    <style>
+
+        table{
+            border:10px solid red;
+            border-collapse:collapse;
+         }
+        .special{
+          border:10px solid yellow;
+          }
+
+          .very-special{
+          border:10px solid green;
+          }
+        td {
+        border: 3px solid red
+         }
+         .tdspecial {
+         border:3px solid yellow;
+         }
+         .tdvery-special{
+         border: 3px solid green;
+         }
+         th{
+         border:3px solid red;
+         }
+         .thspecial {
+         border:3px solid yellow;
+         }
+         .thvery-special{
+         border: 3px solid green;
+         }
+    </style>
+</head>
+<body><br>
+
+
+    <table>
+        <thead>
+            <tr>
+               <th> VDR Reference </th>
+                <th> Description </th>
+                <th> Risk </th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Data Protection</td>
+            <td>Irregular Privacy Policy</td>
+            <td>High</td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td>Real Estate</td>
+            <td>Termination of Lease</td>
+            <td>High</td>
+        </tr>
+        </tbody>
+    </table><br>
+
+    <table class="special">
+        <thead>
+            <tr>
+                <th class="thspecial"> VDR Reference </th>
+                <th class="thspecial"> Description </th>
+                <th class="thspecial"> Risk </th>
+            </tr>
+        </thead>
+            <tbody>
+            <tr>
+                <td class="tdspecial">Corporate</td>
+                <td class="tdspecial">Minutes of the Board without signature</td>
+                <td class="tdspecial">Medium</td>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr>
+                <td class="tdspecial">Litigation</td>
+                <td class="tdspecial">Client claim about product</td>
+                <td class="tdspecial">Medium - Claim = 20k maximum</td>
+            </tr>
+
+            </tbody>
+        </table><br>
+
+    <table class="very-special">
+        <thead>
+            <tr>
+                <th class="thvery-special"> VDR Reference </th>
+                <th class="thvery-special"> Description </th>
+                <th class="thvery-special"> Risk </th>
+            </tr>
+        </thead>
+            <tbody>
+            <tr>
+                <td class="tdvery-special">Labour</td>
+                <td class="tdvery-special">Employees handook not approved</td>
+                <td class="tdvery-special">Low</td>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr>
+                <td class="tdvery-special">Intellectual Property</td>
+                <td class="tdvery-special">Customized software not registered</td>
+                <td class="tdvery-special">Low</td>
+            </tr>
+            </tbody>
+    </table>
+
+</body>
+
+
+</html>
